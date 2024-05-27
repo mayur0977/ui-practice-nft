@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import "./css/header.css";
+@import "./css/hero.css";
+@import "./css/trendingCollection.css";
+
+#root {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+.main_wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.item-center {
+  align-items: center;
+}

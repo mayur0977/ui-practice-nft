@@ -1,0 +1,139 @@
+.hero {
+  max-width: 1440px;
+  width: 100%;
+  padding: 1rem 1.5rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.hero .hero__title {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.hero .hero__title h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.hero .hero__title p {
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.hero__nft {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  max-width: 25rem;
+  border-radius: 16px;
+  margin-bottom: 1rem;
+}
+
+.nft__detail {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  gap: 1rem;
+  background-color: #3b3b3b;
+}
+
+.nft__detail > p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.owner {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.owner img {
+  width: 2rem;
+  border-radius: 50%;
+}
+
+.owner > p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: 0.5px;
+}
+
+.hero__get-started {
+  max-width: 25rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.hero__get-started button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+
+  letter-spacing: 1.5px;
+  background-color: #a259ff;
+  color: white;
+  border: none;
+  border-radius: 20px;
+}
+.hero__get-started button img {
+  width: 2rem;
+}
+
+.hero__nft__total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: 0.5px;
+}
+.hero__nft__total .nft-total {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.hero__nft__total .nft-total p:first-child {
+  font-weight: 600;
+  font-size: 1.5rem;
+  font-family: "Space Mono", monospace;
+}
+.hero__nft__total .nft-total p:nth-child(2) {
+  font-weight: 300;
+  font-size: 1rem;
+  letter-spacing: -0.5px;
+  font-family: "Space Mono", monospace;
+}
+
+/* This applies from 600px onwards */
+@media (min-width: 426px) {
+  .hero {
+    padding: 4rem;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .hero__get-started {
+    display: none;
+  }
+  .hero .hero__title h1,
+  p {
+    max-width: 17rem;
+  }
+}
