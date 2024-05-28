@@ -4,6 +4,7 @@
 @import "./css/hero.css";
 @import "./css/trendingCollection.css";
 @import "./css/topCreators.css";
+@import "./css/gridTest.css";
 
 #root {
   margin: 0 auto;
