@@ -3,10 +3,10 @@ function Hero() {
     <div className="hero">
       <div className="hero__title">
         <h1>Discover Digital Art & Collect NFTs</h1>
-        <p>
+        <span>
           NFT Marketplace Ui created with anima for Figma, bug and sell art from
           more than 20k NFT artists.
-        </p>
+        </span>
       </div>
       <div className="hero__nft">
         <img src="images/hero_image1.png" alt="hero_nft" />
