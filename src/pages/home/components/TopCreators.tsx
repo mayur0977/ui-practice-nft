@@ -74,28 +74,35 @@ function TopCreators() {
     },
   ];
   return (
-    <div className="top-creators">
-      <div className="top-creators__title">
-        <h1>Top Creators</h1>
-        <span>Checkout top Rated Creators on the NFT Marketplace</span>
-      </div>
+    <div className="top-creator-wrapper">
+      <div className="top-creators">
+        <div className="top-creators__title">
+          <h1>Top Creators</h1>
+          <span>Checkout top Rated Creators on the NFT Marketplace</span>
+        </div>
 
-      <div className="top-creators__list">
-        {creatorList.map((item, index) => (
-          <div key={item.id} className="top-creators__item">
-            <div className="number">{index + 1}</div>
-            <div className="creator__detail__main">
-              <img src={`images/${item.creatorImage}`} alt="top_creators" />
-              <div className="creator__info">
-                <p className="name">{item.name}</p>
-                <div className="total-sales">
-                  <p className="sales">Total Sales:</p>
-                  <span className="eth">{item.totalSales}</span>
+        <div className="top-creators__list">
+          {creatorList.map((item, index) => (
+            <div key={item.id} className="top-creators__item">
+              <div className="number">{index + 1}</div>
+              <div className="creator__detail__main">
+                <img src={`images/${item.creatorImage}`} alt="top_creators" />
+                <div className="creator__info">
+                  <p className="name">{item.name}</p>
+                  <div className="total-sales">
+                    <p className="sales">Total Sales:</p>
+                    <span className="eth">{item.totalSales}</span>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
+
+        <button className="btn-view-ranking">
+          <img src="images/rocket-icon.svg" alt="icon" />
+          View Ranking
+        </button>
       </div>
     </div>
   );
