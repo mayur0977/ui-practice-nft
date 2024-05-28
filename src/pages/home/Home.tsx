@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import TopCreators from "./components/TopCreators";
 import TrendingCollection from "./components/TrendingCollection";
 
 function Home() {
@@ -8,6 +9,7 @@ function Home() {
       <Header />
       <Hero />
       <TrendingCollection />
+      <TopCreators />
     </>
   );
 }

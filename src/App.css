@@ -3,6 +3,7 @@
 @import "./css/header.css";
 @import "./css/hero.css";
 @import "./css/trendingCollection.css";
+@import "./css/topCreators.css";
 
 #root {
   margin: 0 auto;
