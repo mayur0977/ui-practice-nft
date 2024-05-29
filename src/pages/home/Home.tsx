@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import TopCreators from "./components/TopCreators";
 import TrendingCollection from "./components/TrendingCollection";
+import UpcomingNFT from "./components/UpcomingNFT";
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
       <TopCreators />
       <Categories />
       <DiscoverNFT />
+      <UpcomingNFT />
     </>
   );
 }
