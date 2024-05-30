@@ -8,6 +8,7 @@
 @import "./css/categories.css";
 @import "./css/discoverNFT.css";
 @import "./css/upcomingNFT.css";
+@import "./css/howItWorks.css";
 
 #root {
   margin: 0 auto;

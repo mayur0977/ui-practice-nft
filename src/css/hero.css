@@ -144,6 +144,7 @@
 
   .hero__nft {
     place-self: center;
+    justify-self: end;
     grid-column: 3/5;
     grid-row: 1/5;
   }
