@@ -7,8 +7,10 @@ function Footer() {
             <img src="images/logo.svg" className="header__logo" alt="logo" />
             <p>NFT Marketplace</p>
           </div>
-          <p>NFT marketplace UI created with Anima and Figma</p>
-          <p>join our community</p>
+          <p className="footer__description">
+            NFT marketplace UI created with Anima and Figma
+          </p>
+          <p className="join__community">join our community</p>
           <div className="footer__social">
             <img src="images/DiscordLogo.svg" alt="Discord" />
             <img src="images/YoutubeLogo.svg" alt="Youtube" />
@@ -29,7 +31,7 @@ function Footer() {
           <h3>Join Our Weekly Digest</h3>
 
           <p>Get exclusive promotions & updates straight to your inbox.</p>
-          <div className="email_controls">
+          <div className="email__controls">
             <input
               type="text"
               placeholder="Enter your email"
