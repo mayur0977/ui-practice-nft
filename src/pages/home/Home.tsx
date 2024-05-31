@@ -1,5 +1,6 @@
 import Categories from "./components/Categories";
 import DiscoverNFT from "./components/DiscoverNFT";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import HowItWorks from "./components/HowItWorks";
@@ -21,6 +22,7 @@ function Home() {
       <UpcomingNFT />
       <HowItWorks />
       <JoinTeam />
+      <Footer />
     </>
   );
 }
